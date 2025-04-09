@@ -6,8 +6,7 @@
     "API",
     "Algorithms",
     "Graphs",
-    "Data",
-    "Structures"
+    "Data Structures"
   ],
   "homepage": "https://github.com/kkphoenixgx/projeto-algoritimos-em-grafos#readme",
   "bugs": {
@@ -22,7 +21,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "^5.1.0"

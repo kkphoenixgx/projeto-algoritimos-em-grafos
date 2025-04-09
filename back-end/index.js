@@ -3,6 +3,7 @@ var path = require('path');
 var indexRouter = require('./routes/index');
 
 var app = express();
+var port = 3000;
 
 // ----------- Middlewares -----------
 app.use(express.json());
@@ -10,6 +11,13 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // ----------- Routes -----------
 app.use('/', indexRouter);
+
+// ----------- Server Setup -----------
+
+app.listen(port, () => {
+  console.log(`Servidor rodando em http://localhost:${port}`);
+});
+
 
 // ----------- Errors -----------
 
