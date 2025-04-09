@@ -1,0 +1,30 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "backend and api to execute algorithms in a easy way",
+  "keywords": [
+    "API",
+    "Algorithms",
+    "Graphs",
+    "Data",
+    "Structures"
+  ],
+  "homepage": "https://github.com/kkphoenixgx/projeto-algoritimos-em-grafos#readme",
+  "bugs": {
+    "url": "https://github.com/kkphoenixgx/projeto-algoritimos-em-grafos/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkphoenixgx/projeto-algoritimos-em-grafos.git"
+  },
+  "license": "ISC",
+  "author": "kkphoenix, GabrielTorres, matheus zeze",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
